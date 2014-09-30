@@ -1,0 +1,10 @@
+server.fullAccessHosts=148.198.67.216,127.0.0.1
+server.port=5700
+server.dashboardPort=5701
+feed.name=gsa_DEVglobal_sp_kibsi
+gsa.hostname=dev-gsa-global.kapsch.co.at
+sharepoint.server=http://uat-kibsi-global.kapsch.co.at/
+# sc queryex servicename & taskkill /f /pid 
+transform.pipeline=MetaTransformer01
+transform.pipeline.MetaTransformer01.factoryMethod=com.google.enterprise.adaptor.transforms.MetaTransformer01.create
+transform.pipeline.MetaTransformer01.separationCharacters=_-
